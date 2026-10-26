@@ -1,0 +1,53 @@
+/* Estilos globales y modernos */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal estilo tarjeta */
+.container {
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    border: 1px solid #2f2f2f;
+}
+
+/* Título */
+h1 {
+    color: #6200ee;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Párrafos */
+p {
+    color: #a0a0a0;
+    line-height: 1.6;
+}
+
+/* Botón interactivo */
+.btn {
+    background-color: #6200ee;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #3700b3;
+    transform: scale(1.05);
+}
